@@ -1,0 +1,141 @@
+.innerheadings {
+  clear: both;
+  border: black 2px solid;
+  display: flex;
+  width: 120px;
+  margin-left: auto;
+  position: relative;
+  bottom: 28px;
+  left: 7px;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#item1 {
+  background-color: rgb(252, 115, 183);
+}
+#item2 {
+  background-color: rgb(219, 18, 18);
+  color: white;
+}
+#item3 {
+  background-color: rgb(235, 232, 69);
+}
+@media screen and (min-width: 992px) /* PC/laptop View*/ {
+  .maintitle {
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 50px;
+  }
+  .box1 {
+    background-color: grey;
+    border: black 2px solid;
+    margin: 10px 10px;
+    padding: 5px;
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin-right: 50px;
+  }
+  .box2 {
+    background-color: grey;
+    border: black 2px solid;
+    margin: 10px 10px;
+    padding: 5px;
+    float: left;
+    width: 30%;
+    height: 30%;
+  }
+  .box3 {
+    background-color: grey;
+    border: black 2px solid;
+    margin: 10px 10px;
+    padding: 5px;
+    float: right;
+    width: 30%;
+    height: 30%;
+  }
+}
+@media screen and (max-width: 768px) /* MOBILE VIEW*/ {
+  .maintitle {
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 5px;
+  }
+  .box1 {
+    background-color: grey;
+    border: black 2px solid;
+    margin: 10px 10px;
+    float: left;
+    width: 60vh;
+    height: 40vh;
+    overflow: hidden;
+  }
+  .box2 {
+    clear: both;
+    background-color: grey;
+    border: black 2px solid;
+    margin: 10px 10px;
+    float: left;
+    width: 60vh;
+    height: 40vh;
+    overflow: hidden;
+  }
+  .box3 {
+    clear: both;
+    background-color: grey;
+    border: black 2px solid;
+    margin: 10px 10px;
+    float: left;
+    width: 60vh;
+    height: 40vh;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) /*tablet view*/ {
+  .maintitle {
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+  .box1 {
+    background-color: grey;
+    border: black 2px solid;
+    margin: 10px 10px;
+    padding: 5px;
+    float: left;
+    width: 55vh;
+    /* margin-right: 60px; */
+  }
+  .box2 {
+    background-color: grey;
+    border: black 2px solid;
+    margin: 10px 10px;
+    padding: 5px;
+    float: right;
+    width: 55vh;
+  }
+  .box3 {
+    clear: both;
+    background-color: grey;
+    border: black 2px solid;
+    margin: 10px 10px;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 350px;
+
+    /* float: right;
+    width: 129vh; */
+  }
+}
